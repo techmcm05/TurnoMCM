@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "\.(sql|txt|php|inc|ini|env)$">
+    Require all denied
+</FilesMatch>
